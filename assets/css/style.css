@@ -19,6 +19,7 @@
     --text-w: #fff;
 }
 
+/* Text tags */
 h1{
     font-size: 60px;
     line-height: 72px;
@@ -38,6 +39,12 @@ p{
     font-size: 20px;
 }
 
+/* Tags configuration */
+header, section{
+    padding: 0 62px;
+}
+
+/* Header */
 header{
     display: grid;
     gap: 20px;
@@ -45,6 +52,58 @@ header{
     color: var(--text-w);
 }
 
+.header__content{
+    display: grid;
+    gap: 20px;
+    margin-top: 206px;
+    margin-bottom: 149px;
+}
+
+.header__content p{
+    font-weight: 500;
+}
+
+/* Dados area */
+#dados{
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+
+    background-color: var(--bg-dados);
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+
+.dados__content h2{
+    font-weight: 600;
+}
+
+/* Sobre nos area */
+#sobre-nos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+
+    background-color: var(--bg-sobre-nos);
+    padding-top: 82px;
+    padding-bottom: 82px;
+}
+
+.sobre-nos__desc{
+    max-width: 735px;
+}
+
+.sobre-nos__desc h2{
+    font-weight: 500;
+}
+
+.sobre-nos__desc p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Footer area */
 footer{
     padding: 87px 0;
     background-color: var(--bg-black);
@@ -81,57 +140,4 @@ form input[type="submit"]{
 
 form input[type="submit"]:hover{
     background-color: var(--bg-submit-hover);    
-}
-
-header, section{
-    padding: 0 62px;
-}
-
-#dados{
-    display: flex;
-    justify-content: center;
-    gap: 99px;
-
-    background-color: var(--bg-dados);
-    padding-top: 96px;
-    padding-bottom: 66px;
-}
-
-#sobre-nos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 64px;
-
-    background-color: var(--bg-sobre-nos);
-    padding-top: 82px;
-    padding-bottom: 82px;
-}
-
-.header__content{
-    display: grid;
-    gap: 20px;
-    margin-top: 206px;
-    margin-bottom: 149px;
-}
-
-.header__content p{
-    font-weight: 500;
-}
-
-.dados__content h2{
-    font-weight: 600;
-}
-
-.sobre-nos__desc{
-    max-width: 735px;
-}
-
-.sobre-nos__desc h2{
-    font-weight: 500;
-}
-
-.sobre-nos__desc p{
-    font-size: 24px;
-    font-weight: 300;
 }
